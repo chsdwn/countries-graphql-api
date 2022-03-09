@@ -4,7 +4,7 @@
 ## 1. Continent
 ```graphql
 query getContinentByCode {
-	continent(code: "eu") {
+  continent(code: "eu") {
     name
     countries {
       name
