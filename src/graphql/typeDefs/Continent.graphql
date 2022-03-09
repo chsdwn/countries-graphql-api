@@ -1,0 +1,4 @@
+type Continent {
+  name: String!
+  countries: [Country!]
+}

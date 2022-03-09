@@ -1,0 +1,9 @@
+type Country {
+  name: String!
+  native: String!
+  phone: [Int!]
+  continent: Continent!
+  capital: String!
+  currency: [String!]
+  languages: [Language!]
+}

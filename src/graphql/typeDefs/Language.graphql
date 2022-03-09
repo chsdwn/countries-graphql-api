@@ -1,0 +1,6 @@
+type Language {
+  name: String!
+  native: String!
+  rtl: Int
+  countries: [Country!]
+}

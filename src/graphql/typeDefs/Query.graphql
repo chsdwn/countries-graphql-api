@@ -1,0 +1,10 @@
+type Query {
+  continent(code: String!): Continent
+  continents: [Continent!]
+
+  country(code: String!): Country
+  countries: [Country!]
+
+  language(code: String!): Language
+  languages: [Language!]
+}
